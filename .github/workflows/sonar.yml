@@ -1,4 +1,4 @@
-name: Sonar
+name: Sonar2
 
 on:
   push:
