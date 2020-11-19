@@ -21,4 +21,4 @@ jobs:
       run: | 
         composer --no-plugins --no-scripts install
         composer --no-plugins --no-scripts dump-autoload -o
-
+        vendor/bin/phpunit --configuration ./phpunit.xml --teamcity
